@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         Button reg= findViewById(R.id.reg);
         reg.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, register_activity.class);
                 startActivity(intent);
 
